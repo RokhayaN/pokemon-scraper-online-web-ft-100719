@@ -15,5 +15,7 @@ class Pokemon
   end 
   def self.find(row)
     pokemon = Pokemon.new
-    
+    pokemon.id =
+    pokemon.name =
+    pokemon.type =
 end
