@@ -14,5 +14,6 @@ class Pokemon
       db.execute("INSERT INTO pokemon(id, name, type) VALUES (?,?,?)",@id, name, type)
   end 
   def self.find 
-    db.execute()
+    db.execute(SELECT * FROM pokemon WHERE  name = ?
+    Limit 1)
 end
