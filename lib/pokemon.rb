@@ -17,4 +17,5 @@ class Pokemon
     pokemon.id = pokemon_db[0]
     pokemon.name = pokemon_db[1]
     pokemon.type = pokemon_db[2]
-end
+  end
+end 
